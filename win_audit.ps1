@@ -14,7 +14,7 @@ $ExecutionPolicy = Get-ExecutionPolicy
 $ScriptExecution = "Unrestricted"
     If ($ExecutionPolicy -eq $ScriptExecution) 
         {
-            Write-Host 'Yay! your PowerShell Script Execution Policy is already set to ' $ExecutionPolicy -ForegroundColor Yellow -BackgroundColor Black
+            Write-Host 'Your PowerShell Script Execution Policy is already set to ' $ExecutionPolicy -ForegroundColor Yellow -BackgroundColor Black
         }
     Else
         {
@@ -2072,7 +2072,7 @@ Write-Host Reverting the PowerShell script execution policy to $ExecutionPolicy 
 Write-Host
 Write-Host The PowerShell Script Execution Policy setting has been reverted back to $ExecutionPolicy -ForegroundColor Yellow -BackgroundColor Black
 Write-Host 
-Write-Host All done. Have a good day.
+Write-Host All done.
 Write-Host
 
 #STOP RECORDING TRANSCRIPT
